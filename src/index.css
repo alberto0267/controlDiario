@@ -1,0 +1,161 @@
+body {
+  margin: 0rem;
+
+}
+.root{
+  /* margin: 0; */
+  font-family: Arial, sans-serif;
+  background-color: #012f3b;
+  border: 7px solid rgb(23, 22, 22);
+  display: grid;
+  min-height: 98.5vh;
+}
+.logo{
+
+  display: flex;
+  width: 15rem;
+  height: 15rem;
+  justify-content: center;
+  justify-self: center;
+  /* display: grid; */
+
+  /* grid-template-columns: 40fr 1fr auto; */
+ 
+}
+
+.letterH1{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.09rem;
+}
+.buttons{
+  padding-top: 2rem;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+justify-content: center;
+justify-self: center;
+}
+button{
+  /* gap: 15rem; */
+  color:rgb(238, 238, 238);
+  font-size: 1.1rem;
+  height: 5rem;
+  width: 22rem;
+  border-radius: 4rem;
+  border: 5px solid black;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.09rem;
+}
+.boxGoogle{
+  /* gap: 2rem; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0rem;
+  /* height: ; */
+  display: flex;
+  justify-content: center;
+  
+  /* flex-direction: row; */
+}
+.boxGoogle p{
+ 
+  position: relative;
+  bottom: .5rem;
+
+}
+.buttonGoogle{
+  display: flex;
+  height: 3rem;
+  width: 15rem;
+  justify-content: center;
+}
+
+img[alt="logoGoogle"]{
+  width: 2rem;
+  /* height: 2rem; */
+  
+}
+
+.Formulario{
+display: flex;
+justify-self: center;
+/* background-color: aqua; */
+}
+.form{
+  /* background-color: aqua; */
+  display: flex;
+  /* font-size: 1.5rem; */
+ background-color: #011b22;
+  flex-direction: column;
+  border: 2.5px solid white;
+  border-radius: .8rem;
+  height: 18rem;
+  width: 22rem;
+  gap: .8rem;
+  }
+
+  .buttonLogin{
+    /* pa */
+    height: 4rem;
+  width: 20rem;
+  }
+label{
+  /* background-color: aqua; */
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+ position: relative;
+ top: 3rem;
+ left: 1.8rem;
+ opacity: .2;
+ font-size: 1rem;
+ /* padding-top: 0rem; */
+}
+
+input[type="email"],
+input[type="password"]{
+  display: flex;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 3rem;
+  position: relative;
+  top: 3rem;
+  left: 1rem;
+}
+.buttonLogin{
+  background-color:#2c2c2c;
+position: relative;
+top: 10rem;
+left: .9rem;
+height: 3rem;
+border: .02px solid black;
+border-radius: 0.7rem;
+
+/* color: white; */
+  /* display: flex; */
+
+}
+.buttonLogin span{
+  color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.00rem;
+  font-weight: bold;
+  /* position: relative; */
+  /* justify-self: center; */
+}
+.olvido a {
+  text-decoration: none;
+}
+.olvido p{
+  position: relative;
+  bottom: 7rem;
+  left: 1rem;
+  opacity: .9;
+  color: gray;
+  text-decoration: none;
+
+}
